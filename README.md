@@ -25,11 +25,11 @@ param2=1: Show units;
 function 2: get GPU data
 
 param1: 
-Load        	// Retrieve CPU load percentage;
-Power		// Retrieve CPU power consumption;
+Load        	// Retrieve GPU load percentage;
+Power		// Retrieve GPU power consumption;
 Limit			// Retrieve symbol '!' if GPU power limit is reached;
-Temp		// Retrieve CPU temperature;
-Fan			// Retrieve CPU Fan speed in %;
+Temp		// Retrieve GPU temperature;
+Fan			// Retrieve GPU Fan speed in %;
 Clock		// Retrieve GPU core clock;
 Mem_Clock	// Retrieve GPU memory clock;
 Mem_Alloc	// Retrieve GPU memory allocation;
