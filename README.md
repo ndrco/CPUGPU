@@ -11,32 +11,32 @@ CPUGPU Interface:
 function 1: get CPU data
 
 param1: 
-Load        	// Retrieve CPU load percentage
-Power		// Retrieve CPU power consumption
-Temp		// Retrieve CPU temperature
-Fan_RPM	// Retrieve CPU Fan speed in RPM
-Fan			// Retrieve CPU Fan speed in %
-Clock		// Retrieve CPU Clock for first core
+Load        	// Retrieve CPU load percentage;
+Power		// Retrieve CPU power consumption;
+Temp		// Retrieve CPU temperature;
+Fan_RPM	// Retrieve CPU Fan speed in RPM;
+Fan			// Retrieve CPU Fan speed in %;
+Clock		// Retrieve CPU Clock for first core;
 
-param2=0: Hide units
-param2=1: Show units
+param2=0: Hide units;
+param2=1: Show units;
 
 
 function 2: get GPU data
 
 param1: 
-Load        	// Retrieve CPU load percentage
-Power		// Retrieve CPU power consumption
-Limit			// Retrieve symbol '!' if GPU power limit is reached
-Temp		// Retrieve CPU temperature
-Fan			// Retrieve CPU Fan speed in %
-Clock		// Retrieve GPU core clock
-Mem_Clock	// Retrieve GPU memory clock
-Mem_Alloc	// Retrieve GPU memory allocation
-Mem_Usage	// Retrieve GPU memory usage in %
+Load        	// Retrieve CPU load percentage;
+Power		// Retrieve CPU power consumption;
+Limit			// Retrieve symbol '!' if GPU power limit is reached;
+Temp		// Retrieve CPU temperature;
+Fan			// Retrieve CPU Fan speed in %;
+Clock		// Retrieve GPU core clock;
+Mem_Clock	// Retrieve GPU memory clock;
+Mem_Alloc	// Retrieve GPU memory allocation;
+Mem_Usage	// Retrieve GPU memory usage in %;
 
-param2=0: Hide units
-param2=1: Show units
+param2=0: Hide units;
+param2=1: Show units;
 
 By utilizing the capabilities of NVML and LibreHardwareMonitor, you can easily extend the plugin to retrieve other data you may require.
 Enjoy!
